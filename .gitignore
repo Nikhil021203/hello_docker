@@ -1,0 +1,8 @@
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+
+# System junk
+Thumbs.db
+.DS_Store

@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    image: hello-docker:1.0
+    ports:
+      - "8080:80"
+    volumes:
+      - ./hello.html:/usr/share/nginx/html/index.html:ro
